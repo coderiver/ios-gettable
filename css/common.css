@@ -87,7 +87,8 @@ label { display: block; padding-left: 15px; height: 47px; line-height: 47px; col
 .errormessage p, .success p { margin: 0 auto; width: 50%; font-size: 15px; font-weight: normal; }
 .errormessage .errormessage__icon, .success .errormessage__icon { display: inline-block; background: url('../img/icons-s047ab83910.png') 0 0 no-repeat; background-position: 0 0; width: 87px; height: 87px; -moz-background-size: 109px 880px; -webkit-background-size: 109px 880px; background-size: 109px 880px; }
 
-.success .success__icon { display: inline-block; background: url('../img/icons-s047ab83910.png') 0 -184px no-repeat; background-position: 0 -92px; width: 109px; height: 88px; -moz-background-size: 109px 880px; -webkit-background-size: 109px 880px; background-size: 109px 880px; }
+.success { color: #c3c3c3; font-size: 13px; }
+.success strong { display: block; margin-bottom: 11px; font-weight: normal; font-size: 18px; color: #fff; }
 
 .pay { margin-bottom: 10px; }
 .pay .pay__card, .pay .pay__cvv { background: #e9e9e9; border-radius: 6px; padding: 15px; box-shadow: inset 0 -3px 0 #d4d4d4, 0 2px 2px rgba(0, 0, 0, 0.3); position: relative; z-index: 5; }

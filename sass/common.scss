@@ -418,11 +418,17 @@ label {
 	}
 }
 .success{
-	@extend .errormessage;
-	.success__icon{
-		display: inline-block;
-		@include sized-spriter($icons, success);
+	color: #c3c3c3;
+	font-size: 13px;
+	strong {
+	    display: block;
+	    margin-bottom: 11px;
+	    font-weight: normal;
+	    font-size: 18px;
+	    color: #fff;
 	}
+	@extend .errormessage; 
+
 }
 .pay{
 	margin-bottom: 10px;
