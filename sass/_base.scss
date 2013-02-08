@@ -6,3 +6,16 @@
 $icons: sprite-map("icons/*.png", $spacing: 10px);
 
 //animations example
+// user-select
+@mixin user-select($var) {
+     -moz-user-select: $var;
+  -webkit-user-select: $var;
+          user-select: $var;
+}
+
+// box-sizing
+@mixin box-sizing($var) {
+     -moz-box-sizing: $var;
+  -webkit-box-sizing: $var;
+          box-sizing: $var;
+}

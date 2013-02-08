@@ -55,7 +55,7 @@
 
 .order__info {
     position: relative;
-    margin-bottom: 8px;
+    margin: 8px 0;
     //padding: 12px 15px 12px 54px;
     padding: 12px 15px 12px 10px;
     background: #ededed;
@@ -114,13 +114,12 @@
 .order__bottom{
    .button_back{
       float: left;
-      margin-right: 10px;
-      width: 40px;
-         span{
-              display: inline-block;
-              @include sized-spriter($icons, arrow);
-              vertical-align: middle;
-           }
+      margin-right: 50px;
+     // span{
+     //      display: inline-block;
+     //      @include sized-spriter($icons, arrow);
+     //      vertical-align: middle;
+     //   }
    }
 }
 //step3

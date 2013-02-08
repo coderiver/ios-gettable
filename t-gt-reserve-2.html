@@ -7,7 +7,7 @@
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
 </head>
 <body>
-
+<div class="l-layout">
 <header class="header"></header>
 <!-- <h1>Чайхона (Глобал Сити)</h1> -->
 <!-- BEGIN  steps-->
@@ -84,26 +84,26 @@
 		</div>
 	</div> -->
 	<div>
-		<label for="asd">Зона посадки:</label>
+		<label for="asd">Количество человек:</label>
 		<div class="select">
 			<select name="" id="">
-				<option value="2">Курящий зал</option>
-				<option value="1">Некурящий зал</option>
+				<option value="2">1 чел</option>
+				<option value="1">...</option>
 			</select>
-			<span class="select__value">Курящий зал</span> 
+			<span class="select__value">10 чел.</span> 
 			<span class="select__icon"></span>
 		</div>
 	</div>
-	<div class="order__name">
+	<!-- <div class="order__name">
 		<label for="time">Пожелания к брони:</label>
 		<div class="order__body">
 			<input class="input" type="text">
 		</div>
-	</div>
-	<div class="order__bottom">
+	</div> -->
+	<!-- <div class="order__bottom">
 		<a href="#" class="button button_gray button_back"><span></span></a>
 		<a href="#" class="button">Далее</a>
-	</div>
+	</div> -->
 	<!-- <div class="order__time">
 		<label for="time">Время</label>
 		<div class="order__body">
@@ -122,10 +122,27 @@
 				<li><a href="#">19:00</a></li>
 			</ul>
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="order__room">
-		<label for="">Выберите зал</label>
+		<label for="">Зона посадки:</label>
+		<ul class="roomselect">
+			<li class="roomselect__active">
+				<strong class="roomselect__title">Курящий зал</strong>
+				<div class="roomselect__radio"></div>
+			</li>
+			<li>
+				<strong class="roomselect__title">Не курящий зал</strong>
+				<div class="roomselect__radio"></div>
+			</li>
+			<li>
+				<strong class="roomselect__title">Все равно</strong>
+				<div class="roomselect__radio"></div>
+			</li>
+		</ul>
+	</div>
+	<!-- <div class="order__room">
+		<label for="">Зона посадки:</label>
 		<ul class="roomselect">
 			<li class="roomselect__active">
 				<strong class="roomselect__title">Нижний зал, столики у окна</strong>
@@ -143,15 +160,18 @@
 				<div class="roomselect__radio"></div>
 			</li>
 		</ul>
-	</div -->
-	
-	<!-- <a href="#" class="button">Далее</a> -->
+	</div> -->
+	<a href="#" class="button">Далее</a>
 	
 </div>
 <!-- END order-->
+</div>
 <footer class="footer">
-	<a href="#" class="footer__gettable">gettable</a>
-	<p class="footer__partner">Единая система заказа столов совместно с <a href="#" class="footer__afisha">Afisha</a></p>
+	<div class="order__bottom">
+	    <a href="#" class="button button_gray button_back">Назад</a>
+	    <a href="#" class="button button_gray button_help">Служба поддержки</a>
+	</div>
+	<p>@ gettable 2013</p>
 </footer>
 </body>
 </html>
